@@ -1,4 +1,4 @@
-export const breeds=[
+const breeds=[
     {
         id: '1',
         name: "Bombay Cat"
@@ -34,3 +34,5 @@ export const breeds=[
         name: "Bengal Cat"
     }
 ]
+
+export default breeds;

@@ -1,5 +1,5 @@
-import { v4 as uuidv4 } from 'uuid';
-export const cats=[
+import { v4 } from 'uuid';
+const cats=[
     {
         id: v4(),
         imageUrl: "https://ichef.bbci.co.uk/news/976/cpsprodpb/12A9B/production/_111434467_gettyimages-1143489763.jpg",
@@ -34,7 +34,7 @@ export const cats=[
 
     {
         id:v4(),
-        imageUrl: "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg",
+        imageUrl: "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg",
         name: "Shadow",
         breed: "Maine Coon",
         description: "Friendly and sociable. Gets along well with other pets and children."
@@ -48,4 +48,6 @@ export const cats=[
         breed: "Ragdoll",
         description: "Affectionate and gentle. Loves to be held and cuddled."
     }
-]
+];
+
+export default cats;
